@@ -6,6 +6,9 @@
 ***
 
 ## 经典模型
+> + [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y)
+>   - 引用：Huang S C, Kothari T, Banerjee I, et al. PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging[J]. NPJ digital medicine, 2020, 3(1): 1-9.
+***
 > + [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 >   - 引用：Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation[C]//International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015: 234-241.
 ***
@@ -17,7 +20,7 @@
 ***
 
 
-## 硕士论文
+## 硕博论文
 ### 国内硕士论文
 > + [基于混合域注意力机制的肺栓塞图像分割研究](、)
 >   - 作者：徐欢
