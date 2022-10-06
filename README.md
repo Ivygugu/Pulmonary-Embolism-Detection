@@ -1,8 +1,14 @@
 
 # Pulmonary-Embolism-Detection
 
+## 肺栓塞检测难点
+1. CT扫描由数百张图像组成，需要详细检查以识别肺动脉内的凝块；
+2. 扫描结果有时会受到环境的影响，如肺部运动伪影与栓子在影像中很难区分等；
+3. 假阳性去除需要考虑多方面的原因；
+***
+
 ## 实验室
-1. [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
+1. The AIMI Center: [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
 ***
 
 ## 经典模型
@@ -19,9 +25,18 @@
 >   - 引用：He K, Gkioxari G, Dollár P, et al. Mask r-cnn[C]//Proceedings of the IEEE international conference on computer vision. 2017: 2961-2969.
 ***
 
+## Datasets 数据集
+#### CT图像
+| Name    | Size   | object | Link    |
+| :--- | :--- | :------ | :------ |
+| The RSNA Pulmonary Embolism CT Dataset    | 980.24GB | 2,995,147 targets   | [Downoad](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)           |
+| CT Pulmonary Angiography   | 145.13GB    | 408,856 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694)                |
+| RadFusion: Multimodal Pulmonary Embolism Dataset   | 378.85GB    | 1,843 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd)                |
+| CAD-PE   |  12.80 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad](https://ieee-dataport.org/open-access/cad-pe)    |
+| Pulmonary  Embolism   |      | 来自于 Mashhad 的 Ferdowsi 大学的机器视觉实验室的开源网站 |                 |
 
 ## 硕博论文
-### 国内硕士论文
+#### 国内硕士论文
 
 | 论文题目    | 作者   | 大学 | 发表时间    |
 | :--- | :--- | :------ | :------ |
@@ -89,6 +104,13 @@
 ***
 
 
+### 待读论文列表
+| 名称  | 作者   | 年份 | 引用次数 | 期刊 |
+| :--- | :---  | :------ | :------ |:------ |
+| [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | Sudhir Suman, Gagandeep Singh, Nicole Sakla |  2021|  2| MICCIA |
+| [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | Shih‑Cheng Huang, Anuj Pareek |  2020|  28| Scientific reports |
+
+
 ### 已读论文总结
 
 > + [Deep Learning for Pulmonary Embolism Detection: Tackling the RSNA 2020 AI Challenge.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8489447/)
@@ -107,13 +129,6 @@
 >   - 引用：Huang S C, Kothari T, Banerjee I, et al. PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging[J]. NPJ digital medicine, 2020, 3(1): 1-9.
 ***
 
-## Datasets 数据集
-###CT图像
-| Name    | Size   | object | Link    |
-| :--- | :--- | :------ | :------ |
-| The RSNA Pulmonary Embolism CT Dataset    | 980.24GB | 2,995,147 targets   | [Downoad](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)           |
-| CT Pulmonary Angiography   | 145.13GB    | 408,856 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694)                |
-| RadFusion: Multimodal Pulmonary Embolism Dataset   | 378.85GB    | 1,843 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd)                |
-| Pulmonary  Embolism   |      | 来自于 Mashhad 的 Ferdowsi 大学的机器视觉实验室的开源网站 |                 |
+
 
 
