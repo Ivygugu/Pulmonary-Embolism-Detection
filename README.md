@@ -7,6 +7,11 @@
 3. 假阳性去除需要考虑多方面的原因；
 ***
 
+## 文档整理
+链接: https://pan.baidu.com/s/1o2CExesyUyuXTzCBW0W3fg
+提取码: m8jk 
+***
+
 ## 实验室
 1. The AIMI Center: [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
 ***
@@ -105,9 +110,11 @@
 
 
 ### 待读论文列表
-| 名称  | 作者   | 年份 | 引用次数 | 期刊 |
-| :--- | :---  | :------ | :------ |:------ |
-| [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | Sudhir Suman, Gagandeep Singh, Nicole Sakla |  2021|  2| MICCIA |
+| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | Sudhir Suman, Gagandeep Singh, Nicole Sakla |  2021|  2| MICCAI |
+| AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images | Jia Guo, Xinglong Liu, Yinan Chen, Shaoting Zhang |  2022|   | MICCAI |
+| [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | Yuyin Zhou, Shih-Cheng Huang, Jason Alan Fries, Alaa Youssef |  2021|  | arXiv |   | from Stanford University Medical Center (SUMC) |
 | [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | Shih‑Cheng Huang, Anuj Pareek |  2020|  28| Scientific reports |
 
 
