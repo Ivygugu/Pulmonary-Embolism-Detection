@@ -40,7 +40,7 @@
 | [2] CT Pulmonary Angiography   | 145.13GB    | 408,856 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694)                |
 | [3] RadFusion: Multimodal Pulmonary Embolism Dataset   | 378.85GB    | 1,843 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd)                |
 | [4] CAD-PE   |  12.80 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad](https://ieee-dataport.org/open-access/cad-pe)    |
-| [5] FUMPE   |  4.36 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images)    |
+| [5] FUMPE   |  4.36 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad1](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) [Downoad2](https://figshare.com/collections/FUMPE/4107803)    |
 | Pulmonary  Embolism   |      | 来自于 Mashhad 的 Ferdowsi 大学的机器视觉实验室的开源网站 |                 |
 
 ## 硕博论文
