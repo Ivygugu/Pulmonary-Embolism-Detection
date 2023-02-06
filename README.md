@@ -16,11 +16,28 @@
 1. The AIMI Center: [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
 ***
 
+## Datasets 数据集
+#### CT图像
+| Name    | Size   | object | Link    |
+| :--- | :--- | :------ | :------ |
+| [1] The RSNA Pulmonary Embolism CT Dataset    | 980.24GB | 2,995,147 targets   | [Downoad](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)           |
+| [2] CT Pulmonary Angiography   | 145.13GB    | 408,856 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694)                |
+| [3] RadFusion: Multimodal Pulmonary Embolism Dataset   | 378.85GB    | 1,843 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd)                |
+| [4] CAD-PE   |  12.80 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad](https://ieee-dataport.org/open-access/cad-pe)    |
+| [5] FUMPE   |  4.36 GB    | 马什哈德菲尔多西大学的PE数据集 |  [Downoad1](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) [Downoad2](https://figshare.com/collections/FUMPE/4107803)    |
+| Pulmonary  Embolism   |      | 来自于 Mashhad 的 Ferdowsi 大学的机器视觉实验室的开源网站 |                 |
+
+
 ## 经典模型
 > + [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y)
 >   - 引用：Huang S C, Kothari T, Banerjee I, et al. PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging[J]. NPJ digital medicine, 2020, 3(1): 1-9.
 >   - 源码：https://github.com/marshuang80/penet
 >   - 数据集：[3] RadFusion: Multimodal Pulmonary Embolism Dataset
+***
+> + [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45)
+>   - 引用：Guo, Jia, et al. "AANet: artery-aware network for pulmonary embolism detection in CTPA images." Medical Image Computing and Computer Assisted Intervention–MICCAI 2022: 25th International Conference, Singapore, September 18–22, 2022, Proceedings, Part I. Cham: Springer Nature Switzerland, 2022.
+>   - 源码：https://github.com/guojiajeremy/AANet
+>   - 数据集：[4] CAD-PE
 ***
 > + [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)
 >   - 引用：Ronneberger O, Fischer P, Brox T. U-net: Convolutional networks for biomedical image segmentation[C]//International Conference on Medical image computing and computer-assisted intervention. Springer, Cham, 2015: 234-241.
@@ -32,16 +49,6 @@
 >   - 引用：He K, Gkioxari G, Dollár P, et al. Mask r-cnn[C]//Proceedings of the IEEE international conference on computer vision. 2017: 2961-2969.
 ***
 
-## Datasets 数据集
-#### CT图像
-| Name    | Size   | object | Link    |
-| :--- | :--- | :------ | :------ |
-| [1] The RSNA Pulmonary Embolism CT Dataset    | 980.24GB | 2,995,147 targets   | [Downoad](https://www.kaggle.com/competitions/rsna-str-pulmonary-embolism-detection/data?select=train.csv)           |
-| [2] CT Pulmonary Angiography   | 145.13GB    | 408,856 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/12c02840-2e13-42a2-b4ef-f682472d4694)                |
-| [3] RadFusion: Multimodal Pulmonary Embolism Dataset   | 378.85GB    | 1,843 targets  | [Downoad](https://stanfordaimi.azurewebsites.net/datasets/3a7548a4-8f65-4ab7-85fa-3d68c9efc1bd)                |
-| [4] CAD-PE   |  12.80 GB    | 该数据集是为ISBI挑战cad-pe而创建 |  [Downoad](https://ieee-dataport.org/open-access/cad-pe)    |
-| [5] FUMPE   |  4.36 GB    | 马什哈德菲尔多西大学的PE数据集 |  [Downoad1](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) [Downoad2](https://figshare.com/collections/FUMPE/4107803)    |
-| Pulmonary  Embolism   |      | 来自于 Mashhad 的 Ferdowsi 大学的机器视觉实验室的开源网站 |                 |
 
 ## 硕博论文
 #### 国内硕士论文
@@ -54,6 +61,8 @@
 | 基于弱标记CT影像的新冠肺炎和肺动脉栓塞识别研究    | 刘艺璇 | 华中科技   | 2021.5.20           |
 | 基于改进GAC模型及深度学习的肺动脉与栓塞分割方法研究    | 刘珍宏 | 华南理工   | 2021.5.23          |
 | 基于多视图加权注意力机制的CTPA肺动脉栓塞图像分割算法研究    | 鲁启洋 | 吉林大学   | 2021.6.30           |
+| 基于深度学习的肺栓塞医学图像分割算法研究  | 刘硕 |  杭州电子科技  | 2022.4           |
+| 基于深度学习的CTPA肺栓塞识别及评价  | 邵亚君 |  北京化工  | 2022.5         |
 
 
 > + [基于混合域注意力机制的肺栓塞图像分割研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD202002&filename=1020905457.nh&uniplatform=NZKPT&v=-QDNds-Ni2C7f3uTj6YYCbfY0B_mXIrfx1h1HQjF46uuOwDJ04DMcAvpsk5mgV2g)
@@ -98,8 +107,20 @@
 >   - 代码：无
 >   - 总结：针对二维分割网络对疑似肺动脉栓塞区域易出现误判，三维分割网络消耗计算资源巨大的问题，本文提出了一种基于多视图加权注意力机制的网络结构 （MWA U-Net）。该模型通过三个并联的特征提取网络，分别在三个视图上进行特征提取，通过引入注意力机制，利用自适应权重的主视图间协作以模仿临床的观察诊断，可以有效的提高肺动脉栓塞病灶的分割精度。
 ***
-
-
+> + [基于深度学习的肺栓塞医学图像分割算法研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022086347.nh&uniplatform=NZKPT&v=g13KhaNPo0rvc-07zIUzrFKSNoXQKZKk21akKNa_KEulachyXfkWnXBJ6Ocn0aeO)
+>   - 作者：刘硕
+>   - 联系方式：
+>   - 数据集：
+>   - 代码：无
+>   - 总结：
+***
+> + [基于深度学习的CTPA肺栓塞识别及评价](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022647943.nh&uniplatform=NZKPT&v=Ss4rpoRr4QxBX1NUNNLn69CB1F4fJJn25xVRA67_cU5X7lNfVu7L93HmKl8TcJ5Q)
+>   - 作者：邵亚君
+>   - 联系方式：
+>   - 数据集：
+>   - 代码：无
+>   - 总结：
+***
 
 ## 文献调研
 ### 综述论文
@@ -141,6 +162,25 @@
 > + [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34)
 >   - 引用：Suman S, Singh G, Sakla N, et al. Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2021: 356-366.
 ***
+> + [Development and Performance of the Pulmonary Embolism Result Forecast Model (PERFORM) for Computed Tomography Clinical Decision Support]()
+>   - 引用：Banerjee I, Sofela M, Yang J, et al. Development and performance of the pulmonary embolism result forecast model (PERFORM) for computed tomography clinical decision support[J]. JAMA network open, 2019, 2(8): e198719-e198719.
+***
+> + [Automated detection of pulmonary embolism from CT-angiograms using deep learning]()
+>   - 引用：Huhtanen H, Nyman M, Mohsen T, et al. Automated detection of pulmonary embolism from CT-angiograms using deep learning[J]. BMC Medical Imaging, 2022, 22(1): 1-10.
+***
+> + [Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm]()
+>   - 引用：Weikert T, Winkel D J, Bremerich J, et al. Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm[J]. European Radiology, 2020, 30(12): 6545-6553.
+***
+> + [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR]()
+>   - 引用：Zhou Y, Huang S C, Fries J A, et al. Radfusion: Benchmarking performance and fairness for multimodal pulmonary embolism detection from ct and ehr[J]. arXiv preprint arXiv:2111.11665, 2021.
+***
+> + []()
+>   - 引用：
+***
+> + []()
+>   - 引用：
+***
+
 
 
 
