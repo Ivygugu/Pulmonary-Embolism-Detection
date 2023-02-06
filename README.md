@@ -110,7 +110,7 @@
 > + [基于深度学习的肺栓塞医学图像分割算法研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022086347.nh&uniplatform=NZKPT&v=g13KhaNPo0rvc-07zIUzrFKSNoXQKZKk21akKNa_KEulachyXfkWnXBJ6Ocn0aeO)
 >   - 作者：刘硕
 >   - 联系方式：
->   - 数据集：
+>   - 数据集：[5] FUMPE
 >   - 代码：无
 >   - 总结：
 (1)本章基于在传统 U 型结构模型上得到的结果经过再次训练可以得到更好的效果这一初衷，并引用 DoubleU-Net 的基础框架，旨在肺栓塞的医学图像分割上获得更好的分割表现，采用了 DBAU-Net 结构。 
