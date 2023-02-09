@@ -131,39 +131,56 @@
 ### 综述论文
 
 > + [Survey on deep learning for pulmonary medical imaging](https://link.springer.com/article/10.1007/s11684-019-0726-4)
->   - 年份期刊：2020/Frontiers of medicine
+>   - 年份/期刊：2020/Frontiers of medicine
 >   - 引用次数：48
 >   - 引用：Ma J, Song Y, Tian X, et al. Survey on deep learning for pulmonary medical imaging[J]. Frontiers of medicine, 2020, 14(4): 450-469.
->   - 总结：
+***
+> + [Computer Aided Detection for Pulmonary Embolism Challenge (CAD-PE)]()
+>   - 年份/期刊：2020/arXiv
+>   - 引用次数：
+>   - 引用：González G, Jimenez-Carretero D, Rodríguez-López S, et al. Computer aided detection for pulmonary embolism challenge (cad-pe)[J]. arXiv preprint arXiv:2003.13440, 2020.
+***
+> + [Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection]()
+>   - 年份/期刊：2021/International Workshop on Machine Learning in Medical Imaging
+>   - 引用次数：
+>   - 引用：Islam N U, Gehlot S, Zhou Z, et al. Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection[C]//International Workshop on Machine Learning in Medical Imaging. Springer, Cham, 2021: 692-702.
 ***
 
+### 已读论文列表
 
-### 待读论文列表
+#### 1. 深度学习模型
+| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | Huang S C, Kothari T, Banerjee I |  2020 | 45  | NPJ digital medicine | https://github.com/marshuang80/penet | RadFusion: Multimodal Pulmonary Embolism Dataset |
+| AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images | Jia Guo, Xinglong Liu, Yinan Chen, Shaoting Zhang |  2022|   | MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, FUMPE, CAD-PE |
+| [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | Yuyin Zhou, Shih-Cheng Huang, Jason Alan Fries, Alaa Youssef |  2021|  | arXiv |   | from Stanford University Medical Center (SUMC) |
+
+
+
+#### 2. CNN-LSTM模型
 | 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | Sudhir Suman, Gagandeep Singh, Nicole Sakla |  2021|  2| MICCAI |
-| AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images | Jia Guo, Xinglong Liu, Yinan Chen, Shaoting Zhang |  2022|   | MICCAI |
-| [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | Yuyin Zhou, Shih-Cheng Huang, Jason Alan Fries, Alaa Youssef |  2021|  | arXiv |   | from Stanford University Medical Center (SUMC) |
+
+
+#### 3. 多模态融合模型
+| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | Shih‑Cheng Huang, Anuj Pareek |  2020|  28| Scientific reports |
 
 
-### 已读论文总结
+### 已读论文列表
 
 > + [Deep Learning for Pulmonary Embolism Detection: Tackling the RSNA 2020 AI Challenge.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8489447/)
 >   - 引用：Pan I. Deep Learning for Pulmonary Embolism Detection: Tackling the RSNA 2020 AI Challenge[J]. Radiology: Artificial Intelligence, 2021, 3(5).
->   - 总结：
 ***
 > + [Use of machine learning to develop and evaluate models using preoperative and intraoperative data to identify risks of postoperative complications ](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2777894)
 >   - 引用：Xue B, Li D, Lu C, et al. Use of machine learning to develop and evaluate models using preoperative and intraoperative data to identify risks of postoperative complications[J]. JAMA network open, 2021, 4(3): e212240-e212240.
->   - 总结：
 ***
 > + [Automated Deep Learning Analysis for Quality Improvement of CT Pulmonary Angiography](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8980873/)
 >   - 引用：Hahn L D, Hall K, Alebdi T, et al. Automated deep learning analysis for quality improvement of CT pulmonary angiography[J]. Radiology: Artificial Intelligence, 2022, 4(2).
->   - 总结：
 ***
-> + [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y)
->   - 引用：Huang S C, Kothari T, Banerjee I, et al. PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging[J]. NPJ digital medicine, 2020, 3(1): 1-9.
-***
+
 > + [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34)
 >   - 引用：Suman S, Singh G, Sakla N, et al. Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2021: 356-366.
 ***
