@@ -1,31 +1,31 @@
 
 # Pulmonary-Embolism-Detection
 
-## 肺栓塞检测难点
+### 肺栓塞检测难点
 1. CT扫描由数百张图像组成，需要详细检查以识别肺动脉内的凝块；
 2. 扫描结果有时会受到环境的影响，如肺部运动伪影与栓子在影像中很难区分等；
 3. 假阳性去除需要考虑多方面的原因；
 ***
 
-## 文档整理
+### 文档整理
 链接: https://pan.baidu.com/s/1o2CExesyUyuXTzCBW0W3fg
 提取码: m8jk 
 ***
 
-## 2020 RSNA Pulmonary Embolism Detection Challenge 相关信息
+### 2020 RSNA Pulmonary Embolism Detection Challenge 相关信息
 1. [竞赛成果汇总](https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/RSNA-pe-detection-challenge-2020)
 2. [1st place solution with code](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/discussion/194145)
 3. [3D CNN for rv_lv_ratio](https://www.kaggle.com/code/pedromatos14/3d-cnn-for-rv-lv-ratio-lt-1/notebook)
 ***
 
-##  肺栓塞工程化产品 
-1. https://www.aidoc.com/blog/clinical_study/automated-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-using-an-ai-powered-algorithm/
+###  肺栓塞工程化产品 
+1. [Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm](https://www.aidoc.com/blog/clinical_study/automated-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-using-an-ai-powered-algorithm/)
 2. https://www.aidoc.com/blog/clinical_study/assessment-of-artificial-intelligence-technology-for-pulmonary-embolism-detection/
 3. https://www.aidoc.com/blog/clinical_study/ai-powered-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-a-validation-study-of-the-diagnostic-performance-of-prototype-algorithms/
 4. https://www.aidoc.com/solutions/pe-care-coordination/
 ***
 
-## 相关实验室
+### 相关实验室
 1. The AIMI Center: [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
 ***
 
@@ -69,6 +69,9 @@
 | 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [Multi-View Coupled Self-Attention Network for Pulmonary Nodules Classification](https://openaccess.thecvf.com/content/ACCV2022/html/Zhu_Multi-View_Coupled_Self-Attention_Network_for_Pulmonary_Nodules_Classification_ACCV_2022_paper.html) | 分类  | 2022 | 4 |ACCV | https://github.com/ahukui/MVCs | |
+| [A Novel Framework for Accurate and Non-Invasive Pulmonary Nodule Diagnosis by Integrating Texture and Contour Descriptors](https://ieeexplore.ieee.org/abstract/document/9433830) | 分类  | 2021 | 2 | ISBI |  | |
+| [Richer fusion network for breast cancer classification based on multimodal data](https://bmcmedinformdecismak.biomedcentral.com/articles/10.1186/s12911-020-01340-6) |  分类 | 2021 | 30 | BMC Medical Informatics and Decision Making |  |  |
+
 
 #### 5. Cross-modal模型
 | 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
@@ -145,14 +148,14 @@
 >   - 引用次数：48
 >   - 引用：Ma J, Song Y, Tian X, et al. Survey on deep learning for pulmonary medical imaging[J]. Frontiers of medicine, 2020, 14(4): 450-469.
 ***
-> + [Computer Aided Detection for Pulmonary Embolism Challenge (CAD-PE)]()
+> + [Computer Aided Detection for Pulmonary Embolism Challenge (CAD-PE)](https://arxiv.org/abs/2003.13440)
 >   - 年份/期刊：2020/arXiv
->   - 引用次数：
+>   - 引用次数：13
 >   - 引用：González G, Jimenez-Carretero D, Rodríguez-López S, et al. Computer aided detection for pulmonary embolism challenge (cad-pe)[J]. arXiv preprint arXiv:2003.13440, 2020.
 ***
-> + [Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection]()
+> + [Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection](https://link.springer.com/chapter/10.1007/978-3-030-87589-3_71)
 >   - 年份/期刊：2021/International Workshop on Machine Learning in Medical Imaging
->   - 引用次数：
+>   - 引用次数：11
 >   - 引用：Islam N U, Gehlot S, Zhou Z, et al. Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection[C]//International Workshop on Machine Learning in Medical Imaging. Springer, Cham, 2021: 692-702.
 ***
 
@@ -168,7 +171,6 @@
 > + [Automated Deep Learning Analysis for Quality Improvement of CT Pulmonary Angiography](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8980873/)
 >   - 引用：Hahn L D, Hall K, Alebdi T, et al. Automated deep learning analysis for quality improvement of CT pulmonary angiography[J]. Radiology: Artificial Intelligence, 2022, 4(2).
 ***
-
 > + [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34)
 >   - 引用：Suman S, Singh G, Sakla N, et al. Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms[C]//International Conference on Medical Image Computing and Computer-Assisted Intervention. Springer, Cham, 2021: 356-366.
 ***
@@ -181,19 +183,15 @@
 > + [Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm]()
 >   - 引用：Weikert T, Winkel D J, Bremerich J, et al. Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm[J]. European Radiology, 2020, 30(12): 6545-6553.
 ***
-> + [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR]()
->   - 引用：Zhou Y, Huang S C, Fries J A, et al. Radfusion: Benchmarking performance and fairness for multimodal pulmonary embolism detection from ct and ehr[J]. arXiv preprint arXiv:2111.11665, 2021.
-***
-
-### 相关论文列表
-
 > + []()
 >   - 引用：
 ***
 > + []()
 >   - 引用：
 ***
-
+> + []()
+>   - 引用：
+***
 
 
 
