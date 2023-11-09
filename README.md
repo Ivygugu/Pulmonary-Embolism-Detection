@@ -12,6 +12,11 @@
 提取码: m8jk 
 ***
 
+## 相关竞赛信息
+RSNA Pulmonary Embolism Detection Challenge (2020)
+1. 1st place solution with code ([https://aimi.stanford.edu/](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/discussion/194145 )
+***
+
 ## 实验室
 1. The AIMI Center: [Center for Artificial Intelligence in Medicine & Imaging](https://aimi.stanford.edu/ )
 ***
