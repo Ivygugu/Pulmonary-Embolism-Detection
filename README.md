@@ -40,7 +40,34 @@
 | [5] FUMPE   |  4.36 GB    | 马什哈德菲尔多西大学的PE数据集 |  [Downoad1](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) [Downoad2](https://figshare.com/collections/FUMPE/4107803)    |
 
 
-## 经典模型
+## PE经典模型
+
+#### 1. 深度学习模型
+| 名称  | 任务   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | 分类 |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
+| [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, FUMPE, CAD-PE |
+| [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
+
+
+| [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [1] The RSNA Pulmonary Embolism CT Dataset |
+| []() | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet |  |
+
+| []() | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet |  |
+
+
+#### 2. CNN-LSTM模型
+| 名称  |  任务  | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | 分类 |  2021|  9| MICCAI |
+
+
+#### 3. 多模态融合模型
+| 名称  | 任务  | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | 分类 |  2020|  102| Scientific reports |
+| [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | 分类 |  2021|  17| arXiv |  - | from Stanford University Medical Center (SUMC) |
+
 #### 分类
 > + [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y)
 >   - 引用：Huang S C, Kothari T, Banerjee I, et al. PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging[J]. NPJ digital medicine, 2020, 3(1): 1-9.
@@ -151,27 +178,6 @@
 >   - 引用：Islam N U, Gehlot S, Zhou Z, et al. Seeking an Optimal Approach for Computer-Aided Pulmonary Embolism Detection[C]//International Workshop on Machine Learning in Medical Imaging. Springer, Cham, 2021: 692-702.
 ***
 
-### 已读论文列表
-
-#### 1. 深度学习模型
-| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
-| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
-| [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | Huang S C, Kothari T, Banerjee I |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | RadFusion: Multimodal Pulmonary Embolism Dataset |
-| AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images | Jia Guo, Xinglong Liu, Yinan Chen, Shaoting Zhang |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, FUMPE, CAD-PE |
-
-
-
-#### 2. CNN-LSTM模型
-| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
-| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
-| [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | Sudhir Suman, Gagandeep Singh, Nicole Sakla |  2021|  9| MICCAI |
-
-
-#### 3. 多模态融合模型
-| 名称  | 作者   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
-| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
-| [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | Shih‑Cheng Huang, Anuj Pareek |  2020|  102| Scientific reports |
-| [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | Yuyin Zhou, Shih-Cheng Huang, Jason Alan Fries, Alaa Youssef |  2021|  17| arXiv |  - | from Stanford University Medical Center (SUMC) |
 
 ### 已读论文列表
 
