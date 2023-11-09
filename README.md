@@ -40,7 +40,7 @@
 | [5] FUMPE   |  4.36 GB    | 马什哈德菲尔多西大学的PE数据集 |  [Downoad1](https://www.kaggle.com/datasets/andrewmvd/pulmonary-embolism-in-ct-images) [Downoad2](https://figshare.com/collections/FUMPE/4107803)    |
 
 
-## PE经典模型
+## 经典论文
 
 #### 1. 深度学习模型
 | 名称  | 任务   | 年份 | 引用次数 | 期刊/会议  | 源码 | 数据集 |
@@ -49,7 +49,6 @@
 | [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, [4] CAD-PE, [5]FUMPE |
 | [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
 | [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [4] CAD-PE |
-
 
 
 #### 2. CNN-LSTM模型
@@ -66,6 +65,15 @@
 | [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | 分类 |  2021|  17| arXiv |  https://github.com/marshuang80/pe_fusion | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
 | [Multimodal Diagnosis for Pulmonary Embolism from EHR Data and CT Images](https://ieeexplore.ieee.org/abstract/document/9871041) | 分类 |  2022|   1| EMBC | - |  |
 
+#### 4. Multi-view模型
+| 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [Multi-View Coupled Self-Attention Network for Pulmonary Nodules Classification](https://openaccess.thecvf.com/content/ACCV2022/html/Zhu_Multi-View_Coupled_Self-Attention_Network_for_Pulmonary_Nodules_Classification_ACCV_2022_paper.html) | 分类  | 2022 | 4 |ACCV | https://github.com/ahukui/MVCs | |
+
+#### 5. Cross-modal模型
+| 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
+| :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [CMAFGAN: A Cross-Modal Attention Fusion based Generative Adversarial Network for attribute word-to-face synthesis](https://www.sciencedirect.com/science/article/pii/S0950705122008863) |   | 2022 | 4 | Knowledge-Based Systems |  |  |
 
 
 ## 硕博论文
@@ -121,19 +129,12 @@
 > + [基于深度学习的肺栓塞医学图像分割算法研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022086347.nh&uniplatform=NZKPT&v=g13KhaNPo0rvc-07zIUzrFKSNoXQKZKk21akKNa_KEulachyXfkWnXBJ6Ocn0aeO)
 >   - 作者：刘硕
 >   - 数据集：[5] FUMPE
->   - 总结：
-(1)本章基于在传统 U 型结构模型上得到的结果经过再次训练可以得到更好的效果这一初衷，并引用 DoubleU-Net 的基础框架，旨在肺栓塞的医学图像分割上获得更好的分割表现，采用了 DBAU-Net 结构。 
-(2)在编码部分，将第一个编码器的原始结构替换为经过预训练的 VGG-19_bn 结构，VGG-19 将允许接收更深度信息，同时保证感受野的大小，从而提高网络性能，提高更好的输出分割效果。第二个编码器在传统编码结构的基础上加入了 squeeze-and-excite 模块，这使得网络在编码过程中可以更专注于重要的特征区域，进而在这个层面提升了模型的准确度。 
-(3)在解码部分，和 U-Net 布局相近，在跳跃连接上由于网络层数的不同进行了修改。对于第一个 U-Net 结构中的解码器，只连接来自其本身编码器的跳跃连接，并且在其中引入了非对称特征融合模块 AFF，使不同尺度的特征信息能够得到更好的利用。然而在第二个 U-Net 结构中的解码器，则同时连接来自两个编码器的跳跃连接（前三层接收来自网络 1 的编码器的连接，所有四层接收网络2 的编码器的连接）。
-(4)其次，在每个下采样阶段和上采样阶段之间，加入了深度空洞空间金字塔池化 DASPP 结构。由于肺栓塞医学图像中病灶位置变化不定，则需要在一定程度上增大感受野。DASPP 可以保证不更改原输入的大小的前提下，增大感受野，这帮助网络得到了比之前多的空间维度上的信号，并且没有给网络模型造成额外的负担。
+>   - 总结：引用 DoubleU-Net 的基础框架，在编码部分，将第一个编码器的原始结构替换为经过预训练的 VGG-19_bn 结构，VGG-19 将允许接收更深度信息，同时保证感受野的大小。第二个编码器在传统编码结构的基础上加入了 squeeze-and-excite 模块，这使得网络在编码过程中可以更专注于重要的特征区域。 在解码部分，在跳跃连接上由于网络层数的不同进行了修改。对于第一个 U-Net 结构中的解码器，只连接来自其本身编码器的跳跃连接，并且在其中引入了非对称特征融合模块 AFF，使不同尺度的特征信息能够得到更好的利用。然而在第二个 U-Net 结构中的解码器，则同时连接来自两个编码器的跳跃连接。在每个下采样阶段和上采样阶段之间，加入了深度空洞空间金字塔池化 DASPP 结构。DASPP 可以保证不更改原输入的大小的前提下，增大感受野，这帮助网络得到了比之前多的空间维度上的信号，并且没有给网络模型造成额外的负担。
 
 ***
 > + [基于深度学习的CTPA肺栓塞识别及评价](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022647943.nh&uniplatform=NZKPT&v=Ss4rpoRr4QxBX1NUNNLn69CB1F4fJJn25xVRA67_cU5X7lNfVu7L93HmKl8TcJ5Q)
 >   - 作者：邵亚君
->   - 联系方式：
->   - 数据集：
 >   - 代码：无
->   - 总结：
 ***
 
 ## 文献调研
