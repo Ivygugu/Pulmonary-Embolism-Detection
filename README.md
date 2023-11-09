@@ -43,30 +43,28 @@
 ## PE经典模型
 
 #### 1. 深度学习模型
-| 名称  | 任务   | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| 名称  | 任务   | 年份 | 引用次数 | 期刊/会议  | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | 分类 |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
 | [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, FUMPE, CAD-PE |
 | [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
+| [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [4] CAD-PE |
 
-
-| [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [1] The RSNA Pulmonary Embolism CT Dataset |
-| []() | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet |  |
-
-| []() | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet |  |
 
 
 #### 2. CNN-LSTM模型
-| 名称  |  任务  | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| 名称  |  任务  | 年份 | 引用次数 | 期刊/会议  | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [Attention Based CNN-LSTM Network for Pulmonary Embolism Prediction on Chest Computed Tomography Pulmonary Angiograms](https://link.springer.com/chapter/10.1007/978-3-030-87234-2_34) | 分类 |  2021|  9| MICCAI |
+| [Automated detection of pulmonary embolism from CT-angiograms using deep learning](https://link.springer.com/article/10.1186/s12880-022-00763-z) | 分割 |  2022|   19| BMC Medical Imaging | https://github.com/turku-rad-ai/pe-detection |  |
 
 
 #### 3. 多模态融合模型
-| 名称  | 任务  | 年份 | 引用次数 | 期刊 | 源码 | 数据集 |
+| 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | 分类 |  2020|  102| Scientific reports |
 | [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | 分类 |  2021|  17| arXiv |  - | from Stanford University Medical Center (SUMC) |
+| [Multimodal Diagnosis for Pulmonary Embolism from EHR Data and CT Images]() | 分类 |  2022|   1| EMBC | - | https://ieeexplore.ieee.org/abstract/document/9871041 |
 
 #### 分类
 > + [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y)
