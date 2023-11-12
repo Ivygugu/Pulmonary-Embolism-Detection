@@ -21,13 +21,15 @@
 
 ###  肺栓塞工程化产品 
 1. [Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm](https://www.aidoc.com/blog/clinical_study/automated-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-using-an-ai-powered-algorithm/)
-2. https://www.aidoc.com/blog/clinical_study/assessment-of-artificial-intelligence-technology-for-pulmonary-embolism-detection/
-3. https://www.aidoc.com/blog/clinical_study/ai-powered-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-a-validation-study-of-the-diagnostic-performance-of-prototype-algorithms/
-4. https://www.aidoc.com/solutions/pe-care-coordination/
-5. [Mount Sinai pilot study](https://www.newswise.com/articles/could-ekgs-help-doctors-use-ai-to-detect-pulmonary-embolisms)
-6. [TechTarget xtelligent HEALTHCARE MEDIA](https://healthitanalytics.com/news/artificial-intelligence-detectspulmonary-embolisms)
-7. [Duke Institute-Machine Learning for Early Identification and Management of PE](https://dihi.org/project/machine-learning-for-early-identification-and-management-of-pulmonary-embolism/)
-8. [Stanford University, Stanford](https://grantome.com/grant/NIH/R01-LM012966-01)
+   [1](https://www.aidoc.com/blog/clinical_study/assessment-of-artificial-intelligence-technology-for-pulmonary-embolism-detection/)
+   [2](https://www.aidoc.com/blog/clinical_study/ai-powered-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-a-validation-study-of-the-diagnostic-performance-of-prototype-algorithms/)
+   [3](https://www.aidoc.com/solutions/pe-care-coordination/)
+2. [Mount Sinai pilot study](https://www.newswise.com/articles/could-ekgs-help-doctors-use-ai-to-detect-pulmonary-embolisms)
+3. [TechTarget xtelligent HEALTHCARE MEDIA](https://healthitanalytics.com/news/artificial-intelligence-detectspulmonary-embolisms)
+4. [Duke Institute-Machine Learning for Early Identification and Management of PE](https://dihi.org/project/machine-learning-for-early-identification-and-management-of-pulmonary-embolism/)
+5. [Stanford University, Stanford](https://grantome.com/grant/NIH/R01-LM012966-01)
+6. [DIHI](https://dihi.org/project/machine-learning-for-early-identification-and-management-of-pulmonary-embolism/)
+7. [Newswise](https://www.newswise.com/articles/could-ekgs-help-doctors-use-ai-to-detect-pulmonary-embolisms)
 ***
 
 ### 相关实验室
