@@ -13,9 +13,10 @@
 ***
 
 ### 2020 RSNA Pulmonary Embolism Detection Challenge 相关信息
-1. [竞赛成果汇总](https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/RSNA-pe-detection-challenge-2020)
-2. [1st place solution with code](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/discussion/194145)
-3. [3D CNN for rv_lv_ratio](https://www.kaggle.com/code/pedromatos14/3d-cnn-for-rv-lv-ratio-lt-1/notebook)
+1. [竞赛Overview](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/overview)
+2. [竞赛成果汇总](https://www.rsna.org/education/ai-resources-and-training/ai-image-challenge/RSNA-pe-detection-challenge-2020)
+3. [1st place solution with code](https://www.kaggle.com/c/rsna-str-pulmonary-embolism-detection/discussion/194145)
+4. [3D CNN for rv_lv_ratio](https://www.kaggle.com/code/pedromatos14/3d-cnn-for-rv-lv-ratio-lt-1/notebook)
 ***
 
 ###  肺栓塞工程化产品 
@@ -23,6 +24,10 @@
 2. https://www.aidoc.com/blog/clinical_study/assessment-of-artificial-intelligence-technology-for-pulmonary-embolism-detection/
 3. https://www.aidoc.com/blog/clinical_study/ai-powered-detection-of-pulmonary-embolism-in-ct-pulmonary-angiograms-a-validation-study-of-the-diagnostic-performance-of-prototype-algorithms/
 4. https://www.aidoc.com/solutions/pe-care-coordination/
+5. [Mount Sinai pilot study](https://www.newswise.com/articles/could-ekgs-help-doctors-use-ai-to-detect-pulmonary-embolisms)
+6. [TechTarget xtelligent HEALTHCARE MEDIA](https://healthitanalytics.com/news/artificial-intelligence-detectspulmonary-embolisms)
+7. [Duke Institute-Machine Learning for Early Identification and Management of PE](https://dihi.org/project/machine-learning-for-early-identification-and-management-of-pulmonary-embolism/)
+8. [Stanford University, Stanford](https://grantome.com/grant/NIH/R01-LM012966-01)
 ***
 
 ### 相关实验室
@@ -47,11 +52,13 @@
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
 | [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, [4] CAD-PE, [5]FUMPE |
 | [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
+| [Detecting Pulmonary Embolism using Deep Neural Networks](http://www.ijpe-online.com/EN/Y2021/V17/I3/322) | 分类 |  2021| 11 | International Journal of Performability Engineering |  |  |
 | [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | 分类 |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
 | [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [4] CAD-PE |
+| [Artificial intelligence models may predict pulmonary embolism risk](https://www.healio.com/news/pulmonology/20190812/artificial-intelligence-models-may-predict-pulmonary-embolism-risk) | 分类 | 2019 |  |  |  |  |
 
 
-
+#### 2. CNN-LSTM模型
 
 
 #### 2. CNN-LSTM模型
@@ -64,10 +71,11 @@
 #### 3. 多模态融合模型
 | 名称  | 任务  | 年份 | 引用次数 | 期刊/会议 | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
-| [Multimodal Diagnosis for Pulmonary Embolism from EHR Data and CT Images](https://ieeexplore.ieee.org/abstract/document/9871041) | 分类 |  2022|   1| EMBC | - |  |
+| [Multimodal Diagnosis for Pulmonary Embolism from EHR Data and CT Images](https://ieeexplore.ieee.org/abstract/document/9871041) | 分类 |  2022|   1| EMBC |  |  |
 | [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | 分类 |  2021|  17| arXiv |  https://github.com/marshuang80/pe_fusion | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
+| [Dual-energy CT for pulmonary embolism: current and evolving clinical applications](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8390816/) | 分类 |  2021|   18 | Korean Journal of Radiology |  |  |
 | [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | 分类 |  2020|  102| Scientific reports | https://github.com/marshuang80/pe_fusion | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
-| [Development and Performance of the Pulmonary Embolism Result Forecast Model (PERFORM) for Computed Tomography Clinical Decision Support](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2747483) | 分类 |  2019|   50 | JAMA | - | SHC, Duke |
+| [Development and Performance of the Pulmonary Embolism Result Forecast Model (PERFORM) for Computed Tomography Clinical Decision Support](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2747483) | 分类 |  2019|   50 | JAMA |   | SHC, Duke |
 
 
 #### 4. Multi-view模型
