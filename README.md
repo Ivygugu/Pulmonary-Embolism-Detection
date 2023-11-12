@@ -48,7 +48,6 @@
 | [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, [4] CAD-PE, [5]FUMPE |
 | [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
 | [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | 分类 |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
-| [Development and Performance of the Pulmonary Embolism Result Forecast Model (PERFORM) for Computed Tomography Clinical Decision Support](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2747483) | 分类 |  2019|   50 | JAMA | - | SHC, Duke |
 | [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [4] CAD-PE |
 
 
@@ -68,6 +67,7 @@
 | [Multimodal Diagnosis for Pulmonary Embolism from EHR Data and CT Images](https://ieeexplore.ieee.org/abstract/document/9871041) | 分类 |  2022|   1| EMBC | - |  |
 | [RadFusion: Benchmarking Performance and Fairness for Multimodal Pulmonary Embolism Detection from CT and EHR](https://arxiv.org/abs/2111.11665) | 分类 |  2021|  17| arXiv |  https://github.com/marshuang80/pe_fusion | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
 | [Multimodal fusion with deep neural networks for leveraging CT imaging and electronic health record: a case-study in pulmonary embolism detection](https://www.nature.com/articles/s41598-020-78888-w) | 分类 |  2020|  102| Scientific reports | https://github.com/marshuang80/pe_fusion | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
+| [Development and Performance of the Pulmonary Embolism Result Forecast Model (PERFORM) for Computed Tomography Clinical Decision Support](https://jamanetwork.com/journals/jamanetworkopen/article-abstract/2747483) | 分类 |  2019|   50 | JAMA | - | SHC, Duke |
 
 
 #### 4. Multi-view模型
