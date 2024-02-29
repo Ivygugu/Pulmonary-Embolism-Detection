@@ -52,15 +52,13 @@
 #### 1. 深度学习模型
 | 名称  | 任务   | 年份 | 引用次数 | 期刊/会议  | 源码 | 数据集 |
 | :--- | :---  | :------ | :------ |:------ | :------ |:------ |
+| [PECon: Contrastive Pretraining to Enhance Feature Alignment Between CT and EHR Data for Improved Pulmonary Embolism Diagnosis](https://arxiv.org/pdf/2308.14050.pdf) | 分类 |  2023|   | International Workshop on Machine Learning in Medical Imaging | https://github.com/BioMedIA-MBZUAI/PECon | [3] RadFusion: Multimodal |
 | [AANet: Artery-Aware Network for Pulmonary Embolism Detection in CTPA Images](https://link.springer.com/chapter/10.1007/978-3-031-16431-6_45) | 分割 |  2022|   7| MICCAI | https://github.com/guojiajeremy/AANet | LUNA16, [4] CAD-PE, [5]FUMPE |
-| [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports | - | [1] The RSNA Pulmonary Embolism CT Dataset |
+| [A multitask deep learning approach for pulmonary embolism detection and identification](https://www.nature.com/articles/s41598-022-16976-9) | 分类 |  2022|   11| Scientific Reports |  | [1] The RSNA Pulmonary Embolism CT Dataset |
 | [Detecting Pulmonary Embolism using Deep Neural Networks](http://www.ijpe-online.com/EN/Y2021/V17/I3/322) | 分类 |  2021| 11 | International Journal of Performability Engineering |  |  |
 | [PENet—a scalable deep-learning model for automated diagnosis of pulmonary embolism using volumetric CT imaging](https://www.nature.com/articles/s41746-020-0266-y) | 分类 |  2020 | 86  | NPJ digital medicine | https://github.com/marshuang80/penet | [3] RadFusion: Multimodal Pulmonary Embolism Dataset |
-| [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access | - | [4] CAD-PE |
+| [A two-stage convolutional neural network for pulmonary embolism detection from CTPA images](https://ieeexplore.ieee.org/abstract/document/8746218) | 分类 |  2018|   37| IEEE Access |  | [4] CAD-PE |
 | [Artificial intelligence models may predict pulmonary embolism risk](https://www.healio.com/news/pulmonology/20190812/artificial-intelligence-models-may-predict-pulmonary-embolism-risk) | 分类 | 2019 |  |  |  |  |
-
-
-#### 2. CNN-LSTM模型
 
 
 #### 2. CNN-LSTM模型
@@ -148,12 +146,8 @@
 >   - 作者：刘硕
 >   - 数据集：[5] FUMPE
 >   - 总结：引用 DoubleU-Net 的基础框架，在编码部分，将第一个编码器的原始结构替换为经过预训练的 VGG-19_bn 结构，VGG-19 将允许接收更深度信息，同时保证感受野的大小。第二个编码器在传统编码结构的基础上加入了 squeeze-and-excite 模块，这使得网络在编码过程中可以更专注于重要的特征区域。 在解码部分，在跳跃连接上由于网络层数的不同进行了修改。对于第一个 U-Net 结构中的解码器，只连接来自其本身编码器的跳跃连接，并且在其中引入了非对称特征融合模块 AFF，使不同尺度的特征信息能够得到更好的利用。然而在第二个 U-Net 结构中的解码器，则同时连接来自两个编码器的跳跃连接。在每个下采样阶段和上采样阶段之间，加入了深度空洞空间金字塔池化 DASPP 结构。DASPP 可以保证不更改原输入的大小的前提下，增大感受野，这帮助网络得到了比之前多的空间维度上的信号，并且没有给网络模型造成额外的负担。
+***
 
-***
-> + [基于深度学习的CTPA肺栓塞识别及评价](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFDTEMP&filename=1022647943.nh&uniplatform=NZKPT&v=Ss4rpoRr4QxBX1NUNNLn69CB1F4fJJn25xVRA67_cU5X7lNfVu7L93HmKl8TcJ5Q)
->   - 作者：邵亚君
->   - 代码：无
-***
 
 ## 文献调研
 ### 综述论文
@@ -198,16 +192,11 @@
 > + [Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm]()
 >   - 引用：Weikert T, Winkel D J, Bremerich J, et al. Automated detection of pulmonary embolism in CT pulmonary angiograms using an AI-powered algorithm[J]. European Radiology, 2020, 30(12): 6545-6553.
 ***
-> + []()
->   - 引用：
-***
-> + []()
->   - 引用：
-***
-> + []()
->   - 引用：
-***
 
+
+### 已接收的论文
+
+> + [PE-MVCNet:  Multi-view and Cross-modal Fusion Network for Pulmonary Embolism Prediction](https://arxiv.org/abs/2402.17187)
 
 
 
